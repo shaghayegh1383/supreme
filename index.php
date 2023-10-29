@@ -72,10 +72,6 @@ if (isset($_GET['category'])) {
           }
           ?>
 
-        </div>
-
-      </div>
-
       <?php include("./include/sidebar.php") ?>
 
     </div>
