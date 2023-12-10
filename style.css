@@ -3,9 +3,9 @@ body {
   }
   
   header {
-    background-color: #9932CC;
+    background-color: #000000;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
   }
   
   h1 {
@@ -13,16 +13,16 @@ body {
   }
   
   main {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   section {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .login {
-    background-color: #C71585;
-    padding: 20px;
+    background-color: #FFB6C1;
+    padding: 10px;
   }
   
   .login h2 {
@@ -41,7 +41,7 @@ body {
   }
   
   .register {
-    background-color: #C71585;
+    background-color: #FFB6C1;
     padding: 20px;
   }
   
