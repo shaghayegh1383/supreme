@@ -6,18 +6,52 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<header>
   <h1>Daily</h1>
-
-  <ul>
-    
-    
-  </ul>
-
-  <form action="/add" method="post">
-    <input type="text" name="task" placeholder="Task">
-    <input type="submit" value="Add Task">
+</header>
+<main>
+  <section class="login">
+    <h2>Login</h2>
+    <form
+    action="login.php"
+    method="post">
+  <input
+  type="email"
+  name="email"
+  placeholder="Email">
+  <input
+  type="password"
+  name="password"
+  placeholder="Password">
   </form>
+  </section>
 
+  <section class="register">
+    <h2>Register</h2>
+    <form
+    action="register.php"
+    method="post">
+    <input
+    type="email"
+    name="email"
+    placeholder="Email">
+
+    <input
+    type="password"
+    name="password"
+    placeholder="Password">
+    <input
+    type="submit"
+    value="Register">
+  </form>
+  
+  </section>
+</main>
+<footer>
+  <p>Sh.s.m</p>
+</footer>
+ 
+
+  
 </body>
 </html>
