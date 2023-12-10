@@ -1,22 +1,62 @@
-body { font-family: sans-serif;}
-h1 {
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #9932CC;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
     text-align: center;
-}
-form {
-    margin: 0 auto;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .login {
+    background-color: #C71585;
+    padding: 20px;
+  }
+  
+  .login h2 {
+    text-align: center;
+  }
+  
+  .login form {
     width: 300px;
-}
-input {
+    margin: 0 auto;
+  }
+  
+  .login input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-}
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li {
+  }
+  
+  .register {
+    background-color: #C71585;
+    padding: 20px;
+  }
+  
+  .register h2 {
+    text-align: center;
+  }
+  
+  .register form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .register input {
+    width: 100%;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
-}
+    border: 1px solid #ccc;
+  }
+  
